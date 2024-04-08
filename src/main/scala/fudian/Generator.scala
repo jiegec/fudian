@@ -1,7 +1,8 @@
 package fudian
 
 import chisel3.RawModule
-import chisel3.stage.{ChiselGeneratorAnnotation, ChiselStage}
+import chisel3.stage.{ChiselGeneratorAnnotation}
+import circt.stage.ChiselStage
 
 object Generator extends App {
 
